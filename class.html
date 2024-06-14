@@ -1,53 +1,380 @@
+<!doctype html>
+<html lang="tw">
 
-<!---卡片區-->
-<div class="row">
-    <div class="col">
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Charmmy.studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="#.css" href="#.css">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+
+<!--開頭-->
+<nav class="navbar navbar-expand-sm navbar-light" style="background-color: #656666;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+           <img src="c51_工作區域 1.png" alt="Bootstrap" width="100" height="60">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html"> 首頁 Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white" href="my class.html">我的課程 My class</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-white" href="class.html">課程資訊 Class</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  關於創靡 About Charmmy
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">空間</a></li>
+                  <li><a class="dropdown-item" href="buy.html">課程購買</a></li>
+                  <li><a class="dropdown-item" href="about.html">品牌理念</a></li>
+                </ul>
+              </li>
+            </ul>
         </div>
     </div>
+</nav>
 
 
+<!--標題-->
+<div class="container-fluid py-2 background-color " style="background-color: #ffffff"></div>
 
-    <div class="col">
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="col">
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="col">
-        <div class="card">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="container-fluid py-2 text-color " style="color: #656666;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <p>| 課程資訊 Class |</p>
             </div>
         </div>
     </div>
 </div>
+
+
+<!---內容-->
+<div class="container-fluid py-2 text-color " style="color: #656666;">
+    <div class="container-fluid">
+      <div class="row">
+         <div class="col">
+             <H5>當前課程</h5>
+         </div>
+      </div>
+    </div>
+</div>
+
+<div class="container-fluid py-2 text-color" style="color: #656666;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col text-center">
+                <table class="table table-bordered border-color:#212121">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">一 (MON.)</th>
+                        <th scope="col">二(TUS.)</th>
+                        <th scope="col">三(WED.)</th>
+                        <th scope="col">四(THUR)</th>
+                        <th scope="col">五(FRI.)</th>
+                        <th scope="col">六(SAT.)</th>
+                        <th scope="col">日(SUN.)</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td class="table-active">
+                            11:00-12:00 <br>
+                            Locking 進階
+                        </td>
+                        <td class="table-active">
+                            11:00-12:00 <br>
+                            Waacking 入門
+                        </td>
+                        <td class="table-active">
+                            11:00-12:00 <br>
+                            Locking 進階
+                        </td>
+                        <td></td>
+                        <td class="table-active">
+                            11:00-12:00 <br>
+                             兒童kpop
+                        </td>
+                        <td class="table-active">
+                            11:00-12:00 <br>
+                            Waacking 進階
+                        </td>
+                        <td class="table-active">
+                            11:00-12:00 <br>
+                             兒童kpop
+                        </td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">2</th>
+                        <td class="table-active">
+                            12:00-14:00 <br>
+                             poppin 入門
+                        </td>
+                        <td></td>
+                        <td class="table-active">
+                            12:00-14:00 <br>
+                            House 入門
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td class="table-active">
+                            12:00-14:00 <br>
+                            House 入門
+                        </td>
+                        <td></td>
+                        </var>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">3</th>
+                        <td></td>
+
+                        <td class="table-active">
+                            14:00-16:00 <br>
+                            Locking 入門
+                        </td>
+                        <td></td>
+                       <td class="table-active">
+                            14:00-16:00 <br>
+                             基礎律動
+                        </td>
+
+                        <td></td>
+
+                        <td class="table-active">
+                            14:00-16:00 <br>
+                            Locking 入門
+                        </td>
+
+                        <td class="table-active">
+                            14:00-16:00 <br>
+                             基礎律動
+                        </td>
+
+                    
+
+                      </tr>
+
+                      <tr>
+                        <th scope="row">4</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="table-active">
+                            16:00-18:00 <br>
+                            JAzz 進階
+                        </td>
+                        <td></td>
+                        <td class="table-active">
+                            16:00-18:00 <br>
+                            Jazz Funk 入門
+                        </td>
+                        <td></td>
+                      </tr>
+
+                      <tr>
+                        <th scope="row">5</th>
+                        <td class="table-active">
+                            18:00-20:00 <br>
+                             Choreo
+                        </td>
+
+                        <td></td>
+                        <td class="table-active">
+                            18:00-20:00<br>
+                            HIP-HOP入門
+                        </td>
+                        <td></td>
+                        <td class="table-active">
+                            18:00-20:00<br>
+                            HIP-HOP入門
+                        </td>
+
+                        <td></td>
+
+                        <td class="table-active">
+                            18:00-20:00 <br>
+                             Choreo
+                        </td>
+                    
+                      </tr>
+
+
+
+                      <tr>
+                        <th scope="row">6</th>
+                    
+                        <td class="table-active">
+                            19:00-21:00<br>
+                            KPOP 成品班
+                        </td>
+
+                        <td class="table-active">
+                            19:00-21:00 <br>
+                            HIP-HOP 進階
+                        </td>
+
+                        <td class="table-active">
+                            19:00-21:00 <br>
+                             Choreo
+                        </td>
+
+                        <td class="table-active">
+                            19:00-21:00<br>
+                            KPOP 成品班
+                        </td>
+                        <td></td>
+                        <td class="table-active">
+                            19:00-21:00 <br>
+                            HIP-HOP 進階
+                        </td>
+
+                        <td class="table-active">
+                            19:00-21:00 <br>
+                             Choreo
+                        </td>
+
+                      </tr>
+
+                      <tr>
+                        <th scope="row">7</th>
+                        <td></td>
+                        <td class="table-active">
+                            21:00-22:00 <br>
+                            Jazz 進階
+                        </td>
+                        <td></td>
+                        <td class="table-active">
+                            21:00-22:00 <br>
+                            Heels 入門
+                        </td>
+                        <td></td>
+                        <td class="table-active">
+                            21:00-22:00 <br>
+                            Heels 進階
+                        </td>
+                        <td></td>
+                        </var>
+                      </tr>
+
+                    </tbody>
+                </table>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+<!---內容-->
+<div class="container-fluid py-2 text-color " style="color: #656666;">
+    <div class="container-fluid">
+      <div class="row">
+         <div class="col">
+             <H5>新課報名</h5>
+         </div>
+      </div>
+    </div>
+  </div>
+  
+<div class="container-fluid py-2 text-color " style="color: #656666;">
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-2">
+            <img src="截圖 2024-06-14 上午7.48.48.png" class="img-fluid" alt=""width="200" height="250">
+          </div>
+  
+          <div class="col-2">
+            <img src="截圖 2024-06-14 上午7.49.01.png" class="img-fluid" alt=""width="200" height="250">
+          </div>
+  
+          <div class="col-2">
+            <img src="截圖 2024-06-14 上午7.49.19.png" class="img-fluid" alt=""width="200" height="250">
+          </div>
+  
+          <div class="col-2">
+            <img src="截圖 2024-06-14 上午7.49.37.png" class="img-fluid" alt=""width="200" height="250">
+          </div>
+  
+          <div class="col-2">
+            <img src="截圖 2024-06-14 上午7.49.47.png" class="img-fluid" alt=""width="200" height="250">
+          </div>
+  
+          <div class="col-2">
+            <img src="截圖 2024-06-14 上午7.49.55.png" class="img-fluid" alt=""width="200" height="250">
+          </div>
+  
+     </div>
+    </div>
+  </div>
+  
+
+
+
+
+
+
+<!---頁尾-->
+<div class="container-fluid py-2 background-color" style="background-color: #ffffff"></div>
+
+
+<div class="container-fluid py-2 text-white background-color " style="background-color: #656666">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col">
+                <img src="c6_工作區域 1.png" alt="Bootstrap" width="250" height="150">
+            </div>
+
+            <dl class=""></dl>
+                <dt class="col-sm-3">
+                    <img src="去背的 -9.png" alt="Bootstrap" width="35" height="35">(02)2224-4566
+                </dt>
+
+                <dd class="col-sm-9">
+                    <img src="22.png" alt="Bootstrap" width="40" height="40">@charmmy_studio
+                </dd>
+              
+                <dt class="col-sm-3">
+                    <img src="去背的 -7.png" alt="Bootstrap" width="30" height="30">新北市快樂區無名路27巷52號
+                </dt>
+              
+                <dd class="col-sm-9">
+                    <img src="去背的Mail.png" alt="Bootstrap" width="30" height="30">charmmystudio@gmail.com
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+
+</html>
